@@ -1,7 +1,34 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
-.DS_Store
-.vscode/
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
 .idea/
+.vscode/
 *.swp
+*.swo
+
+# Thumbnails temp cache
+/tmp/smooth_float_thumbs/
+
+# Qt / PySide6
+*.qrc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / local config overrides (user keeps their own config.json)
+config.local.json

@@ -1,0 +1,43 @@
+{
+  "animations": {
+    "ring_entrance": true,
+    "ring_style": "elastic",
+    "pulse_speed": 0.039,
+    "fade_duration": 446,
+    "shockwave": true
+  },
+  "performance": {
+    "max_fps": 60,
+    "enable_batch_render": true,
+    "enable_cache": true,
+    "peek_delay": 150,
+    "gpu_accel": true
+  },
+  "graphics": {
+    "ring_size": 528,
+    "hub_radius": 109,
+    "node_radius": 9,
+    "hub_icon_size": 29,
+    "spoke_length": 56,
+    "button_size": 64,
+    "node_border_width": 2.5
+  },
+  "behavior": {
+    "snap_to_edges": true,
+    "snap_threshold": 19,
+    "smart_position": true,
+    "keyboard_nav": true,
+    "global_hotkey": "<cmd>+|",
+    "peek_mode": "thumbnail"
+  },
+  "costs": {
+    "ring_size": 0.35,
+    "hub_radius": 0.1,
+    "node_radius": 0.18,
+    "glow_effects": 0.25,
+    "keyboard_nav": 0.02,
+    "smart_grouping": 0.03,
+    "shockwave": 0.12,
+    "max_fps": 0.2
+  }
+}
